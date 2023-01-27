@@ -1,11 +1,10 @@
-# [Django Social Network][2]
+# [The Social Network][2]
 
 [![Python Version](https://img.shields.io/badge/python-3.6-brightgreen.svg)](https://python.org)
 [![Django Version](https://img.shields.io/badge/django-3.0-brightgreen.svg)](https://djangoproject.com)
 
-This project is a fork of https://github.com/vitorfs/bootcamp
 
-Django Social Network is an open source **enterprise social network** built with [Python][0] using the [Django Web Framework][1].
+The Social Network is an open source **enterprise social network** built with [Python][0] using the [Django Web Framework][1].
 
 The project has three basic apps:
 
@@ -13,7 +12,6 @@ The project has three basic apps:
 * Articles (A collaborative blog)
 * Question & Answers (A Stack Overflow-like platform)
 
-## [Live Demo][2]
 
 ## Feed App
 
@@ -40,8 +38,8 @@ The Q&A app works just like Stack Overflow. You can mark a question as favorite,
 
 ## Installation Guide
 
-	git clone https://github.com/suhailvs/django-social-network
-	cd django-social-network
+	git clone https://github.com/MarvinKweyu/the-social-network
+	cd the-social-network
 	cp .env.example .env
 	python3 -m venv env
 	source env/bin/activate
@@ -49,12 +47,7 @@ The Q&A app works just like Stack Overflow. You can mark a question as favorite,
 	./manage.py migrate
 	./manage.py runserver
 
-vist <http://localhost:8000>
-
-## Demo
-
-Try Django Social Network now at [https://suhail.herokuapp.com][2].
+Vist <http://localhost:8000>
 
 [0]: https://www.python.org/
 [1]: https://www.djangoproject.com/
-[2]: https://suhail.herokuapp.com/
